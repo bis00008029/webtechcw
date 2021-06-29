@@ -25,6 +25,10 @@ nav a {
     line-height: 50px;
 }
 
+nav a:hover {
+    color: #533530;
+}
+
 footer {
     height: 50px;
     border-top: solid 1px #784c44;
@@ -44,6 +48,8 @@ main {
 
 .content {
     padding-top: 51px;
+    padding-bottom: 51px;
+    margin: 0 10px;
 }
 
 table {
@@ -221,6 +227,11 @@ button {
     font-size: 1.2em;
 }
 
+.create-btn:hover {
+    background-color: rgb(0, 160, 0);
+    cursor: pointer;
+}
+
 .submit-btn {
     background-color: rgb(0, 113, 189);
     color: white;
@@ -229,4 +240,29 @@ button {
     text-decoration: none;
     display: inline-block;
     font-size: 1.2em;
+}
+
+.submit-btn:hover {
+    background-color: rgb(0, 100, 167);
+    cursor: pointer;
+}
+
+.service-title, .service-description {
+    text-align: center;
+}
+
+.shiba-img {
+    width: 50%;
+}
+
+.about-description {
+    margin: 0 20px;
+}
+
+.about-figure {
+    text-align: center;
+}
+
+.about-img {
+    max-width: 50%;
 }
